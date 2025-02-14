@@ -1,0 +1,9 @@
+elementi:
+Viaggio
+String destinazione, Localdate data, stato {IN_PROGRAMMA, COMPLETATO}, List  prenotazioni;
+
+Dipendente
+String username,String nome,String cognome, String email, List prenotazioni
+
+prenotazione
+Viaggio viaggio, Dipendente dipendente; LocalDate dataPrenotazione, String preferenze;
